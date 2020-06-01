@@ -1,0 +1,42 @@
+#links-div ul li {
+    display:inline-block;
+}
+.logo{
+    background-image:url(../img/logo.png);
+    float: left;
+    width: 90px;
+    height: 90px;
+  }
+.background{
+    background-image:url(../img/Fitness.png);
+  }
+.image{
+    height: 120px;
+    width: 100px;
+    float: right;
+    margin: 10px;
+}
+.list{
+    display: grid !important;
+}
+h1 {
+color: black;
+font-family: arial, sans-serif;
+font-size: 30px;
+font-weight: bold;
+margin-top: 0px;
+margin-bottom: 1px;
+    text-align: center;
+}
+h2 {
+color: black;
+font-family: arial, sans-serif;
+    text-align: center;
+}
+h3{
+    color: white;
+}
+li{
+        font-size: 20px;
+    margin-left: 65px;
+}
