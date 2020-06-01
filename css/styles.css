@@ -9,6 +9,8 @@
   }
 .background{
     background-image:url(../img/Fitness.png);
+     height: 100%;
+    background-repeat: no-repeat;
   }
 .image{
     height: 120px;
@@ -32,6 +34,7 @@ h2 {
 color: black;
 font-family: arial, sans-serif;
     text-align: center;
+    font-style: italic;
 }
 h3{
     color: white;
@@ -39,4 +42,16 @@ h3{
 li{
         font-size: 20px;
     margin-left: 65px;
+}
+.nav-tabs{
+    font-size: 20px;
+    margin-left: 65px;
+}
+#para1{
+      font-size: 20px;
+    margin-left: 100px;
+}
+.para2{
+      font-size: 20px;
+    margin-left: 100px;
 }
