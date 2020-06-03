@@ -77,3 +77,10 @@ li{
     background-size: 100% 100%;
     overflow-x: hidden;
   }
+.treadmill{
+    font-size: 20px;
+    margin-left: 185px;
+}
+.treadmillDetails{
+    margin-left: 130px !important;
+}
