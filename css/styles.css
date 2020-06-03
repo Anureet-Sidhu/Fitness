@@ -89,3 +89,11 @@ li{
 .cardioList{
     font-size: 35px !important;
 }
+.myh3{
+    font-size: 14px;
+    color: white;
+}
+.carouselContainer{
+    width: 40% !important;
+    height: 60%;
+}
