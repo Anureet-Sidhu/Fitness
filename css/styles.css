@@ -8,9 +8,12 @@
     height: 90px;
   }
 .background{
-    background-image:url(../img/Fitness.png);
+    background-image:url(../img/fitness.png);
      height: 100%;
+    width: 100%;
     background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
   }
 .image{
     height: 120px;
@@ -55,3 +58,22 @@ li{
       font-size: 20px;
     margin-left: 100px;
 }
+.bike{
+    width: 50%;
+    margin: 30px;
+}
+.cardio{
+    font-size: 20px;
+    margin-left: 110px;
+}
+.bikeBackground{
+    background-image:url(../img/fitness.png);
+     height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    overflow-x: hidden;
+  }
