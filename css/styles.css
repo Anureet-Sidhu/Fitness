@@ -102,3 +102,6 @@ li{
     height: 100%;
     margin-left: 30px;
 }
+.tableWidth{
+    width: 60% !important;
+}
