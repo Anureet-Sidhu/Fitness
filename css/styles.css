@@ -53,12 +53,14 @@ li{
     margin-left: 65px;
 }
 #para1{
-      font-size: 20px;
-    margin-left: 100px;
+    font-size: 20px;
+    margin-left: 100px !important;
+    margin: 25px;
 }
 .para2{
-      font-size: 20px;
-    margin-left: 100px;
+    font-size: 20px;
+    margin-left: 100px !important;
+    margin: 25px;
 }
 .bike{
     width: 50%;
@@ -104,4 +106,7 @@ li{
 }
 .tableWidth{
     width: 60% !important;
+}
+.rowmargin{
+    margin: 10px;
 }
