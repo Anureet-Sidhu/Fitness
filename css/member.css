@@ -1,5 +1,5 @@
 .classButton{
-    width: 10em;
+    width: 11em;
 }
 .card-body{
     background-color: black;
@@ -39,5 +39,9 @@ button{
     -moz-appearance: none;
     appearance: none;
     background-color:  lightcyan;
+}
+.spec{
+    width: 80%;
+    height: 290px;
 }
 
