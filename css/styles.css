@@ -28,9 +28,9 @@
 }
 h1 {
 color: black;
-font-family: arial, sans-serif;
-font-size: 30px;
-font-weight: bold;
+font-family: arial, sans-serif !important;
+font-size: 30px !important;
+font-weight: bold !important;
 margin-top: 0px;
 margin-bottom: 1px;
     text-align: center;
@@ -105,8 +105,13 @@ li{
     margin-left: 30px;
 }
 .tableWidth{
-    width: 60% !important;
+    width: 60% !important;  
+    background-color: black;
+    color: white;
 }
 .rowmargin{
     margin: 10px;
+}
+.marginMain{
+    margin-top: 18px !important;
 }

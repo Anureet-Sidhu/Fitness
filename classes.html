@@ -1,43 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Classes</title>
-        <link rel="stylesheet" href="css/styles.css">
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <title>Classes</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/member.css">
 </head>
-<body class="background">
-    	 <div class="logo"></div>
-    	<h1>Welcome to FitLife Fitness and Training Center!!</h1>
-    	<h2>Classes</h2>
-    	<h3 class="myh3">Commit to be fit!</h3>
-        <hr/>
-                <div id="links-div">
-                     <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-10">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="about.html">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="classes.html">Classes</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="services.html">Services</a>
-      </li>
-        <li class="nav-item">
-        <a class="nav-link" href="member.html">Memberships</a>
-      </li>
-    </ul>
+
+<body class="bikeBackground marginMain">
+  <div class="logo"></div>
+  <h1>Welcome to FitLife Fitness and Training Center</h1>
+  <h2>Classes</h2>
+  <h3 class="myh3">Commit to be fit!</h3>
+  <hr />
+  <div id="links-div">
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-10">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="classes.html">Classes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="member.html">Memberships</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
   </div>
-                </nav></div></div>
-            </div>
- <hr />
+  <div class="row">
+    <div class="col-md-3">
+      <p>
+        <img src="img/shoulder.png" alt="You can do it!" style="width:20%;">
+        <button class="btn btn-primary classButton" type="button" data-toggle="collapse" data-target="#Weights"
+          aria-expanded="false" aria-controls="Weights">
+          Weights <span class="glyphicon glyphicon-plus"></span>
+        </button>
+      </p>
+      <div class="collapse" id="Weights">
+        <div class="card card-body">
+          Whatever your goal, aim to work out 4 or 5 days per week.
+          You can get a good workout in 20 minutes or in an hour, so don’t worry about duration as much as the quality
+          and composition of your routine.
+          Avoid training the same muscle groups hard 2 days in a row; recovery is super important to progress.</div>
+      </div>
+      <img src="img/boxing.png" alt="You can do it!" style="width:20%;">
+      <button class="btn btn-primary classButton" type="button" data-toggle="collapse" data-target="#boxing" aria-expanded="false"
+        aria-controls="collapseExample">
+        Boxing <span class="glyphicon glyphicon-plus"></span>
+      </button>
+      </p>
+      <div class="collapse" id="boxing">
+        <div class="card card-body">
+          Warmup:
+          10 minutes jump rope
+          20 squats
+          20 pushups
+          40 crunches
+
+          Shadow boxing:
+          3-minute round: Basic jab, cross, and hook punches
+          Rest 30 seconds
+          x5
+
+          Heavy bag workout: Basic combinations
+          3-minute round
+          Rest 30 seconds
+          x5
+          If you’re new to this kind of intensity, do three rounds, not five, and give yourself a minute rest between
+          them. “Pace yourself,” Strout says. “Don’t go all out in the first 20 seconds, then stop: Keep punching the
+          bag even if you’re just touching it.”
+
+          Finisher:
+          100 pushups
+          100 squats
+          200 sit-ups
+          Rest as little as possible</div>
+      </div>
+      <img src="img/zumba.png" alt="You can do it!" style="width:20%;">
+      <button class="btn btn-primary classButton" type="button" data-toggle="collapse" data-target="#Zumba" aria-expanded="false"
+        aria-controls="collapseExample">
+        Zumba <span class="glyphicon glyphicon-plus"></span>
+      </button>
+      </p>
+      <div class="collapse" id="Zumba">
+        <div class="card card-body">
+          Zumba Dance is the best dance on the planet because it helps you lose weight without diet by dancing. Zumba
+          dance will motivate you to workout at home.
+          Think dancing and get fit, fat loss is very easy while doing Zumba exercises, start doing Zumba from now,
+          daily exercises plan for weight loss is better than diets.</div>
+      </div>
+      <img src="img/yoga.png" alt="You can do it!" style="width:20%;">
+      <button class="btn btn-primary classButton" type="button" data-toggle="collapse" data-target="#yoga" aria-expanded="false"
+        aria-controls="collapseExample">
+        Yoga <span class="glyphicon glyphicon-plus"></span>
+      </button>
+      </p>
+      <div class="collapse" id="yoga">
+        <div class="card card-body">
+          It’s time to roll out your yoga mat and discover the combination of physical and mental exercises that for
+          thousands of years have hooked yoga practitioners around the globe. The beauty of yoga is that you don’t have
+          to be a yogi or yogini to reap the benefits. Whether you are young or old, overweight or fit, yoga has the
+          power to calm the mind and strengthen the body. Don’t be intimidated by yoga terminology, fancy yoga studios
+          and complicated poses. Yoga is for everyone.</div>
+      </div>
+     
+    </div>
+    <div class="col-md-6">
+      <div>
+        <table class="table table-bordered tableWidth">
+          <thead>
+            <tr>
+              <th scope="col"><mark>Time</mark></th>
+              <th scope="col"><mark>Monday</mark></th>
+              <th scope="col"><mark>Tuesday</mark></th>
+              <th scope="col"><mark>Wednesday</mark></th>
+              <th scope="col"><mark>Thrusday</mark></th>
+              <th scope="col"><mark>Friday</mark></th>
+              <th scope="col"><mark>Saturday</mark></th>
+              <th scope="col"><mark>Sunday</mark></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th> 9:15 am</th>
+              <td><img src="img/stairs.png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/jumping-rope.png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/stairs.png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/jumping-rope.png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/stairs.png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/jumping-rope.png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/stairs.png" alt="You can do it!" style="width:80%;">
+              </td>
+            </tr>
+            <tr>
+              <th> 9:30 am</th>
+              <td><img src="img/Treadmil.png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/workout-machine.png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/Treadmil.png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/workout-machine.png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/Treadmil.png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/workout-machine.png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/Treadmil.png" alt="You can do it!" style="width:80%;">
+              </td>
+            </tr>
+            <tr>
+              <th> 10:00 am</th>
+              <td><img src="img/abs.png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/abs-2.png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/pull-up.png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/rowing-machine.png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/shoulder.png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/kettlebell.png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/lunges (2).png" alt="You can do it!" style="width:80%;">
+              </td>
+            </tr>
+            <tr>
+              <th> 10:30 am</th>
+              </td>
+              <td><img src="img/exercise (1).png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/dumbbell.png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/plank.png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/zumba.png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/exercise (1).png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/fitness (1).png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/jumping-rope.png" alt="You can do it!" style="width:80%;">
+              </td>
+            <tr>
+              <th> 5:15 pm</th>
+              <td><img src="img/shoulder.png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/gym (1).png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/sides.png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/exercise (1).png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/dumbbell.png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/squat (1).png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/boxing.png" alt="You can do it!" style="width:80%;">
+              </td>
+            </tr>
+            <tr>
+              <th> 6:00 pm</th>
+              <td><img src="img/pull-up.png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/body-weight.png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/gym (1).png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/body-weight.png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/cardio.png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/kettlebell.png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/meditation-yoga.png" alt="You can do it!" style="width:80%;">
+              </td>
+            </tr>
+            <tr>
+              <th> 6:30 pm</th>
+              <td><img src="img/lunges (2).png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/plank.png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/meditation-yoga.png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/streching.png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/yoga.png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/streching-2.png" alt="You can do it!" style="width:80%;">
+              </td>
+              <td><img src="img/zumba.png" alt="You can do it!" style="width:80%;">
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <img src="img/cardio.png" alt="You can do it!" style="width:20%;">
+      <button class="btn btn-primary classButton" type="button" data-toggle="collapse" data-target="#cardio" aria-expanded="false"
+        aria-controls="collapseExample">
+        Cardio <span class="glyphicon glyphicon-plus"></span>
+      </button>
+      </p>
+      <div class="collapse" id="cardio">
+        <div class="card card-body">
+          Cardiovascular exercise, also known as cardio or aerobic exercise, is essential for good health. It gets your
+          heart rate up, making you blood pump faster. This delivers more oxygen throughout your body, which keeps your
+          heart and lungs healthy.
+          Regular cardio exercise can also help you lose weight, get better sleep, and reduce your risk for chronic
+          disease.</div>
+      </div>
+      <img src="img/workout-machine.png" alt="You can do it!" style="width:20%;">
+      <button class="btn btn-primary classButton" type="button" data-toggle="collapse" data-target="#Cycling" aria-expanded="false"
+        aria-controls="collapseExample">
+        Cycling <span class="glyphicon glyphicon-plus"></span>
+      </button>
+      </p>
+      <div class="collapse" id="Cycling">
+        <div class="card card-body">
+          Start off pedaling at a low intensity for 5-10 minutes.
+          Switch to medium intensity for 5 minutes, followed by:
+          high intensity for 1-2 minutes
+          medium intensity for 5 minutes
+          high intensity for 1-2 minutes
+          medium intensity for 5 minutes
+          Finish by pedaling at a low intensity for 5 minutes.</div>
+      </div>
+      <img src="img/dumbbell.png" alt="You can do it!" style="width:20%;">
+      <button class="btn btn-primary classButton" type="button" data-toggle="collapse" data-target="#Dumbbell" aria-expanded="false"
+        aria-controls="collapseExample">
+        Dumbbell <span class="glyphicon glyphicon-plus"></span>
+      </button>
+      </p>
+      <div class="collapse" id="Dumbbell">
+        <div class="card card-body">
+          Whether you’re aiming for rapid fat loss, bulging muscles or cardiovascular fitness, a pair of dumbbells will
+          tick the box – providing you use them correctly. Yes, curls might get the girls, but increasing your dumbbell
+          dexterity with a few extra free-weight exercises will get you to your goals faster.
+        </div>
+      </div>
+      <img src="img/meditation-yoga.png" alt="You can do it!" style="width:20%;">
+      <button class="btn btn-primary classButton" type="button" data-toggle="collapse" data-target="#Meditation"
+        aria-expanded="false" aria-controls="collapseExample">
+        Meditation <span class="glyphicon glyphicon-plus"></span>
+      </button>
+      </p>
+      <div class="collapse" id="Meditation">
+        <div class="card card-body">
+          Meditation is a simple practice available to all, which can reduce stress, increase calmness and clarity and
+          promote happiness. Learning how to meditate is straightforward, and the benefits can come quickly. Here, we
+          offer basic tips to get you started on a path toward greater equanimity, acceptance and joy. Take a deep
+          breath, and get ready to relax.
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr />
 </body>
+
 </html>
