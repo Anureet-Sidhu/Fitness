@@ -115,3 +115,9 @@ li{
 .marginMain{
     margin-top: 18px !important;
 }
+#join{
+    width:100%;
+}
+#benefits{
+    font-size: 15px;
+}
