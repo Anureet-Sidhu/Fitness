@@ -121,3 +121,11 @@ li{
 #benefits{
     font-size: 15px;
 }
+#about{
+     background-image:url(../img/fitness.png);
+     height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
